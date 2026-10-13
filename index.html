@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <title>Living Room Study</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <div id="overlay">
+      <div id="loading" class="panel">
+        <div class="spinner"></div>
+        <div id="loading-text">Building the room…</div>
+      </div>
+      <div id="hud" class="hidden">
+        <div class="views">
+          <button data-view="overview">Overview</button>
+          <button data-view="desk">Desk</button>
+          <button data-view="sofa">Sofa</button>
+          <button data-view="window">Window</button>
+        </div>
+        <div class="hint">Drag to look around · Scroll to zoom · Right-drag to pan</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

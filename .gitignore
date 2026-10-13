@@ -1,0 +1,24 @@
+# Dependencies and build output
+node_modules
+dist
+
+# Screenshots from tools/screenshot.mjs
+shots
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local environment
+.env
+.env.*
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
